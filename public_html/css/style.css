@@ -1,4 +1,9 @@
-h1 {
+.red {
     color: darkred;
+}
+.blue{
+    color: blue;
+}
+.bold{
     font-weight: bold;
 }
