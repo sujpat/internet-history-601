@@ -2,8 +2,110 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Construction</title>
+    <meta content="This is an example of a meta description.
+   This will show up in search results." name="description">
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        #primaryLinks {
+            height: 100px;
+            line-height: 100px;
+            width: 553px;
+            text-align: right;
+            float: right;
+            margin: 0px;
+        }
+
+        #primaryLinks li {
+            display: inline;
+        }
+
+        #primaryLinks menu {
+            padding-top: 0;
+            padding-left: 0;
+            margin: 0px;
+        }
+
+        #logo img {
+            float: left;
+        }
+        #wrapper {
+            width: 960px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #logo img {
+            width: 300px;
+            height: 150px;
+        }
+
+        #primaryContent {
+            clear: both;
+            float: left;
+
+        }
+        article {
+            font-family: "Roboto", sans-serif;
+            font-size: 19px;
+            line-height: 32px;
+            padding-left: 23px;
+            padding-right: 23px;
+        }
+        #sideContent img {
+            width:160px;
+            height: 160px;
+            padding-top: 60px;
+
+        }
+        #footer {
+            clear: both;
+            text-align: center;
+            height: 100px;
+            line-height: 200px;
+        }
+    </style>
 </head>
+<body>
+
+<menu id="primaryLinks">
+    <li><a href="homepage.html">Home</a></li>
+    <li><a href="history.html">History</a></li>
+    <li><a href="construction.html">The Construction</a></li>
+    <li><a href="browsers.html">Browsers and GUI</a></li>
+    <li><a href="search-engines.html">Search Engines</a></li>
+    <li><a href="ip-dns.html">IP and DNS</a></li>
+</menu>
+<article id="primaryContent">
+    <h1 class="green">IP and DNS</h1>
+
+    <!-- IP -->
+    <div id="sideContent">
+        <figure>
+            <img src="images/address.jpg" style="padding-top: 50px" />
+        </figure>
+        <div class="media-body">
+            <h4 class="blue">Internet Protocol (IP)</h4>
+            <p>A protocol is a well known set of rules and standard used to communicate between machines. Each machine is assigned a
+                unique address, which is essentially a set of numbers, similar to a mailing address. Computers use this when sending messages to know
+                its origin and its recipient. IP Addresses were 32 bits long (IPv4) however the growth of the Internet has led to IPv6 which is
+                128 bits long.</p>
+        </div>
+    </div>
+    <!-- DNS -->
+    <div id="sideContent">
+        <figure>
+            <img src="images/domain.jpg" style="padding-top: 50px" />
+        </figure>
+        <div class="media-body">
+            <h4 class="blue">Domain Name System (DNS)</h4>
+            <p>Using the IP Protocols, DNS assigns webpages with unique IP addresses. The computer then uses the domain name to look up
+            the corresponding IP address thus connecting the request to the recipient. These servers are connected in a distributed hierarchy (ex. org, com, net, gov)
+            No matter how big the internet grows, IP and DNS are designed to scale with the growth.</p>
+        </div>
+    </div>
+</article>
 <body>
 
 </body>
